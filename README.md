@@ -11,9 +11,9 @@ Hệ thống bao gồm 3 thành phần chính được thiết kế để hoạt
 ## 2. Kiến thức kỹ thuật đã đạt được
 
 ### Backend & Database (.NET Core & SQL Server)
-* **Stored Procedures (SP):** Viết logic truy vấn dữ liệu trong store procedure thay vì truy vấn trực tiếp giúp:
-    * Tăng hiệu suất thực thi câu lệnh SQL.
-    * Tách biệt logic dữ liệu (Database) và logic ứng dụng (Code).
+* **Stored Procedures (SP):** Viết logic truy vấn dữ liệu trong store procedure thay vì inline SQL giúp:
+    * Tăng hiệu suất thực thi câu lệnh SQL (ko đáng kể khi so với built-in function).
+    * Tách biệt logic dữ liệu (Database) và code logic ứng dụng.
     * Tăng tính bảo mật, hạn chế SQL Injection.
 * **RESTful API:** Thiết kế endpoints rõ ràng để cả Web và Mobile đều có thể gọi chung một nguồn dữ liệu.
 * **CORS (Cross-Origin Resource Sharing):** Hiểu và cấu hình chính xác quyền truy cập để Frontend có thể giao tiếp với Backend.
